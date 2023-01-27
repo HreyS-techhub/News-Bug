@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background:#b9386ede;
+}
+
+.popup{
+  width:380px;
+  height:min-content;
+  padding:20px;
+  border-radius: 12px;
+  background: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top:50%;
+  display: none;
+  box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0);
+}
+
+.popup button{
+  display: block;
+  margin: 0 0 0 auto;
+  background-color: transparent;
+  font-size: 30px;
+  color: #000000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup h1{
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.popup form{
+  font-size: 20px;
+}
+
+.popup form .form-group{
+  margin-bottom: 12px;
+}
+
+.popup form input[type="submit"]{
+  font-size: 20px;
+  margin-top: 15px;;
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  background-color: #b9386ede;
+  color: #ffffff;
+}
+
+nav{
+  background-color: #a70749de;
+}
+
+html {
+  scroll-behavior: smooth;
+}

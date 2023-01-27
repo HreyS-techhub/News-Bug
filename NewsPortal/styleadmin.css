@@ -1,0 +1,10 @@
+.upload form input[type="file"]{
+    width: 40%;
+    margin-right: 10px;
+}
+
+.upload form label{
+    margin-left: 20px;
+    font-weight: bold;
+    margin-right: 60px;
+}
